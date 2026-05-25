@@ -15,27 +15,26 @@
 
             <!-- DADOS PESSOAIS -->
              <legend>Dados Pesoais</legend>
-            <label for="userName">Nome</label>
-            <input type="text" name="userName" required>
+            <label for="name">Nome</label>
+            <input id="name" type="text" name="userName" required>
             <br>
             <label for="age">Idade</label>
-            <input type="number" name="userAge" min="12" max="100" required>
+            <input id="age" type="number" name="userAge" min="12" max="100" required>
             <br>
             <label for="birthDate">Data de nascimento</label>
-            <input type="date" name="birthDate">
+            <input id="birthDate" type="date" name="userbirthDate">
             <br>
-            <label for="userEmail">Email</label>
-            <input type="email" name="userEmail" required>
+            <label for="mail">Email</label>
+            <input id="mail" type="email" name="userEmail" required>
             <br>
-            <label for="userPhoneNumber">Telefone</label>
-            <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + numero sem espaços ou hífen">
+            <label for="phoneNumber">Telefone</label>
+            <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + numero sem espaços ou hífen">
             <br>
-            <label for="userImage">Upload de foto</label>
-            <input type="file" accept="image/*" name="userImage">
+            <label for="image">Upload de foto</label>
+            <input id="image" type="file" accept="image/*" name="userImage">
             <br>
             </fieldset>
             <br>
-            <button type="submit">Enviar</button>
         </form>
     </section>
     
@@ -48,17 +47,17 @@
             <!-- hábitos -->
             <legend>Hábitos</legend>
             <p>Redes sociais</p>
-            <input type="checkbox" name="social" value="Instagram" id="social">
-            <label for="social">Instagram</label>
+            <input id="instagram" type="checkbox" name="social" value="Instagram">
+            <label for="instagram">Instagram</label>
             <br>
-            <input type="checkbox" name="social" value="Facebook" id="social2">
-            <label for="social2">Facebook</label>
+            <input id="facebook" type="checkbox" name="social" value="Facebook">
+            <label for="facebook">Facebook</label>
             <br>
-            <input type="checkbox" name="social" value="Twitter" id="social3">
-            <label for="social3">Twitter</label>
+            <input id="twitter" type="checkbox" name="social" value="Twitter">
+            <label for="twitter">Twitter</label>
             <br>
-            <input type="checkbox" name="social" value="Linkedin" id="social4">
-            <label for="social4">Linkedin</label>
+            <input id="linkedin" type="checkbox" name="social" value="Linkedin   ">
+            <label for="linkedin">Linkedin</label>
             </fieldset>
             <br> 
             <button type="submit">Enviar</button>
